@@ -12,18 +12,46 @@
     <h1 id="title">Amazing first coding survey</h1>
     <p id="description">For any coders who want to dive into the awesome world of coding.</p>
     <form id="survey-form">
-      <input type="text" name="" id="name" placeholder="please input your name" required>
       <label id="name-label">Name</label>
+      <input type="text" name="" id="name" placeholder="please input your name" required>
+      <label id="emal-label">E-mail</label>
       <input type="email" name="" id="email" placeholder="your email address please" required>
-      <label id="emal-label"></label>
+      <label id="number-label">Phone</label>
       <input type="number" name=""  id="number" min="10" max="100" placeholder="input a phone number to contact you" required>
-      <label id="number-label"></label>
       <select id="dropdown">
         <option value="C++">C++</option>
         <option value="C#">C#</option>
         <option value="Javascript">Javascript</option>
         <option value="Java">Java</option>
       </select>
+
+      <div>
+        <label>Math</label>
+        <input type="radio" value="Math" name="whatFor">
+        <label>WevDev</label>
+        <input type="radio" value="WebDev" name="whatFor">
+        <label>BackEnd</label>
+        <input type="radio" value="BackEnd" name="whatFor">
+        <label>Video-Games</label>
+        <input type="radio" value="VideoGames" name="whatFor">
+      </div>
+
+      <div>
+        <label>1 year experience</label>
+        <input type="checkbox" value="1year">
+        <label>2 year experience</label>
+        <input type="checkbox" value="2year">
+        <label>3 year experience</label>
+        <input type="checkbox" value="3year">
+        <label>4 year experience</label>
+        <input type="checkbox" value="4year">
+       </div>
+      
+       <label>Leave any additional comment below</label>
+       <textarea></textarea>
+
+       <button id="submit">Submit</button>
+      
 
     </form>
 

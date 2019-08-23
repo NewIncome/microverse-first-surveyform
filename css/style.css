@@ -19,9 +19,6 @@ input {
 	margin: 0 auto 15px auto;
 }
 
-#check label {
-	margin-left: 25%;
-}
 #radio-check {
 	display: flex;
 	flex-wrap: wrap;
@@ -33,6 +30,20 @@ input {
 	display: flex;
 	flex-wrap: wrap;
 	border: 1px solid #000;
-	height: 200px;
 	width: 40%;
+}
+
+li{
+	margin: 0 auto;
+}
+
+ul{
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+textarea{
+	display: block;
+	margin:  0 auto;
 }

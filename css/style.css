@@ -4,12 +4,14 @@
 }
 body {
 	background: lightblue;
+	font-family: arial;
 	text-align: center;
 }
 h1, p {
 	margin-bottom: 10px;
 }
 form {
+	background: #fff;
 	border: 2px solid #000;
 	width: 60%;
 	margin: 0 auto;
@@ -17,6 +19,12 @@ form {
 input {
 	display: inline-block;
 	margin: 0 auto 15px auto;
+}
+#fstUl {
+	margin-top: 20px;
+}
+input, select, textarea {
+	background-color: #C1E2F0;
 }
 
 #radio-check {
@@ -46,4 +54,10 @@ ul{
 textarea{
 	display: block;
 	margin:  0 auto;
+}
+
+button {
+	background: rgb(210, 0, 0);
+	padding: 5px;
+	margin: 10px;
 }
